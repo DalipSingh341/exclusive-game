@@ -507,17 +507,7 @@ input[type="checkbox"] {
 }
 /* ellos */
 /* pregantus */
-.accordion {
-  --bs-accordion-btn-active-icon: url(./assets/images/svg/neg.svg) !important;
-  --bs-accordion-btn-icon: url(./assets/images/svg/up_arrow.svg) !important;
-  --bs-accordion-border-color: transparent !important;
-  --bs-accordion-btn-focus-box-shadow: none !important;
-  --bs-accordion-btn-padding-x: 16px !important;
-  --bs-accordion-body-padding-x: 16px 20px !important;
-  position: relative !important;
-  z-index: 6 !important;
-  --bs-accordion-inner-border-radius: 0 !important;
-}
+
 button:not(.collapsed)::after {
   background-image: url("../images/webp/minus.webp") !important;
   transform: var(--bs-accordion-btn-icon-transform);

@@ -554,14 +554,7 @@ button:not(.collapsed)::after {
     rgba(122, 245, 122, 0.06) 102.02%
   );
 }
-.solo1 {
-  width: 50%;
-  left: 0;
-}
-.solo2 {
-  width: 50%;
-  right: 0;
-}
+
 /* solo */
 /* footer */
 .footer_logo {
@@ -634,6 +627,14 @@ button:not(.collapsed)::after {
   }
 }
 @media (max-width: 768px) {
+  .solo1 {
+  width: 100%;
+  left: 0;
+}
+.solo2 {
+  width: 100%;
+  right: 0;
+}
   .casino_bgc {
     background-color: white;
   }
@@ -641,7 +642,7 @@ button:not(.collapsed)::after {
     background-color: white;
   }
   .solo_box {
-    padding: 50px 20px;
+    padding: 30px 20px;
   }
 }
 @media (min-width: 576px) {
@@ -653,6 +654,14 @@ button:not(.collapsed)::after {
   }
 }
 @media (min-width: 768px) {
+  .solo1 {
+  width: 50%;
+  left: 0;
+}
+.solo2 {
+  width: 50%;
+  right: 0;
+}
   .luxury1 {
     z-index: 1;
     top: 10%;
